@@ -18,10 +18,10 @@ metadata:
 spec:
   tls:
   - hosts:
-      - httpd.k8s.taggingtag.com
+      - httpd.k8s.shubhamtatvamasi.com
     secretName: httpd-tls
   rules:
-  - host: httpd.k8s.taggingtag.com
+  - host: httpd.k8s.shubhamtatvamasi.com
     http:
       paths:
       - path: /
